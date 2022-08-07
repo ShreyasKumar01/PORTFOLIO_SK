@@ -1,5 +1,5 @@
 function checkbox() {
 
-    alert("You are alredy on the CV Page.Click on other tabs to navigate.");
+    alert("You are alredy on the Resume Page.Click on other tabs to navigate.");
 
 }
