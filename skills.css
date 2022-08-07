@@ -1,0 +1,228 @@
+body {
+    background-image: url(joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #363837;
+    font-size: 20px;
+}
+
+/* .................................... */
+.items {
+    list-style: none;
+    display: inline-block;
+    align-items: left;
+    padding: 7px 45px;
+    border-left: 1px solid rgb(37, 40, 42);
+    ;
+    border-right: 1px solid rgb(37, 40, 42);
+    margin: 10px -3px;
+    font-size: 1.8rem;
+
+}
+
+#navbar {
+    background-color: rgba(177, 177, 217, 0);
+    opacity: 0.8;
+    margin-left: 0.5rem;
+}
+
+.page {
+    color: rgb(29, 31, 32);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(26, 26, 27);
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0%;
+    margin: 15px;
+    color: #272727;
+    text-decoration: underline;
+}
+
+.div {
+    border: 4px solid rgb(61, 60, 60);
+    border-radius: 5vw;
+    margin: 2vh;
+    width: 65%;
+    padding: 1vw;
+
+
+}
+
+.para {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-weight: bolder;
+}
+
+.in {
+    font-size: 2.3rem;
+    color: rgb(65, 63, 63);
+    /* border: 1px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.html {
+    width: 90%;
+    background-color: #363837;
+    animation-name: html1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes html1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+/* Green */
+.css {
+    width: 75%;
+    background-color: #363837;
+    animation-name: css1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes css1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 75%;
+    }
+}
+/* Blue */
+.js {
+    width: 40%;
+    background-color: #363837;
+    animation-name: js1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+@keyframes js1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+/* Red */
+.ml {
+    width: 60%;
+    background-color: #363837;
+    animation-name: ml1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+@keyframes ml1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+/* Dark Grey */
+.nl {
+    width: 60%;
+    background-color: #363837;
+    animation-name: nl1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+@keyframes nl1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+/* Dark Grey */
+.node {
+    width: 55%;
+    background-color: #363837;
+    animation-name: node1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+@keyframes node1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 55%;
+    }
+}
+/* Dark Grey */
+.ve {
+    width: 90%;
+    background-color: #363837;
+    animation-name: ve1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+@keyframes ve1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+/* Dark Grey */
+.c {
+    width: 80%;
+    background-color: #363837;
+    animation-name: c1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+@keyframes c1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+/* Dark Grey */
+.container {
+    color: white;
+}

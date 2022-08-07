@@ -1,0 +1,90 @@
+body {
+    background-image: url(keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #d3d0d0;
+    font-size: 14px;
+    padding-top: 1rem;
+
+}
+
+.items {
+    list-style: none;
+    display: inline-block;
+    align-items: left;
+    padding: 7px 45px;
+    border-left: 1px solid rgb(254, 254, 254);
+    ;
+    border-right: 1px solid rgb(250, 250, 250);
+    margin: 10px -3px;
+    font-size: 1.8rem;
+
+}
+
+#navbar {
+    background-color: rgba(177, 177, 217, 0);
+    opacity: 0.8;
+    margin-left: 0.5rem;
+}
+
+.page {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(243, 243, 243);
+
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 42px;
+    padding: 0%;
+    margin: 15px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 1px 1px #636060;
+}
+
+.res {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.btn {
+  background-color: #c2fbd7;
+  border-radius: 60px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 25px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover{
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.bttn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}

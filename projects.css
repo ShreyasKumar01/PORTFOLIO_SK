@@ -1,0 +1,101 @@
+body {
+    background-image: url(clockp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* .................................... */
+.items {
+    list-style: none;
+    display: inline-block;
+    align-items: left;
+    padding: 7px 45px;
+    border-left: 1px solid rgb(37, 40, 42);
+    ;
+    border-right: 1px solid rgb(37, 40, 42);
+    margin: 10px -3px;
+    font-size: 1.8rem;
+
+}
+
+#navbar {
+    background-color: rgba(177, 177, 217, 0);
+    opacity: 0.8;
+    margin-left: 0.5rem;
+}
+
+.page {
+    color: rgb(29, 31, 32);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(26, 26, 27);
+
+}
+
+#clockcontainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(ezgif-2-402fdb5ff7\ copy-modified.png) no-repeat;
+    background-size: 100%;
+
+}
+
+#hours,
+#minutes,
+#seconds {
+    position: absolute;
+    background-color: black;
+    border-radius: 8px;
+}
+
+#hours {
+    width: 1%;
+    height: 24.6%;
+    top: 26%;
+    left: 49.95%;
+
+    transform-origin: bottom;
+
+
+}
+
+#minutes {
+    width: 0.7%;
+    height: 32%;
+    top: 18.6%;
+    left: 50.1%;
+    opacity: 0.9;
+    transform-origin: bottom;
+
+}
+
+#seconds {
+    background-color: red;
+    width: 0.4%;
+    height: 38.5%;
+    top: 12%;
+    left: 50.2%;
+    opacity: 0.8;
+    transform-origin: bottom;   
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0%;
+    margin: 15px;
+    color: #272727;
+    text-decoration: underline;
+}

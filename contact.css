@@ -1,0 +1,72 @@
+body {
+    background-image: url(kelly-sikkema-tk9RQCq5eQo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #d3d0d0;
+    font-size: 14px;
+    padding-top: 1rem;
+   
+}
+
+.items {
+    list-style: none;
+    display: inline-block;
+    align-items: left;
+    padding: 7px 45px;
+    border-left: 1px solid rgb(220, 225, 227);
+    ;
+    border-right: 1px solid rgb(220, 225, 227);
+    margin: 10px -3px;
+    font-size: 1.8rem;
+
+}
+
+#navbar {
+    background-color: rgba(177, 177, 217, 0);
+    opacity: 0.8;
+    margin-left: 0.5rem;
+}
+
+.page {
+    color: rgb(220, 225, 227);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color:rgb(220, 225, 227);
+
+}
+
+h3 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    padding: 0%;
+    margin: 15px;
+    color: #dddddd;
+    text-decoration: underline;
+}
+   
+.contacts {
+    font-size: 2rem;
+}
+
+#details {
+    margin: 1rem;
+}
+
+.thanks {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    border: 0.15rem solid white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+ 
+}
